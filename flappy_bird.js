@@ -26,8 +26,8 @@ function draw() { //the main loop in which everything is drawn
       screen = 1;
     }
   }
-  if (screen == 1) {
-  fill("yellow");
+  if (screen == 1) { 
+  fill("yellow"); //fill everything that comes after yellow
   x1 -= 2; 
   rect(x, y, size);
   if (l == 0) {
@@ -35,7 +35,7 @@ function draw() { //the main loop in which everything is drawn
     y1 += random(-100, 100);
     l = 1;
   }
-  fill("green");
+  fill("green"); //fill everything that comes after green
   rect(x1, y1, 30, 300);
   rect(x1, y1+450, 30, 300);
   if (x1 < 0) {
